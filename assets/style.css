@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    position: relative;
+}
+
+
+.bts {
+    color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.speaker {
+    background-color: var(--grey);
+    padding: 0.2em 0.5em 0.2em;
+    border-radius: 0.3em;
+    margin-right: 0.3em;
+}
+
+.exp {
+    background-color: var(--grey);
+    padding: 0.2em 0.2em 0.2em;
+    border-radius: 0.3em;
+}
