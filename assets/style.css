@@ -61,3 +61,100 @@ img {
     background-color: rgba(128, 128, 128, 0.5); 
     padding: 1rem 1rem 1rem;
 }
+
+/* Buttons area */
+
+.call-buttons {
+    width: 100vw;
+    height: 80px;
+    background-color: var(--back);
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+nav {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+nav > div {
+    height: 100%;
+    display: flex;
+}
+
+.btn {
+    height: 100%;
+    width: 80px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    position: relative;
+}
+
+.btn-large {
+    width: 120px;
+}
+
+.btn-xl {
+    width: 150px;
+}
+
+/* Icons */
+
+.btn .icon {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-80%);
+    font-size: 2em;
+}
+
+.btn-large .icon {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-80%);
+    font-size: 2em;
+}
+
+.btn-xl .icon {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-80%);
+    font-size: 2em;
+}
+
+.green {
+    color: var(--green);
+}
+
+.fa-chevron-up {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-80%);
+}
+
+
+nav span {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+.close-call {
+    background-color: red;
+}
+
+.close-call span {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
